@@ -19,7 +19,7 @@ export default function Home(){
         if(resto == 0){
             alert("O número é par");
         }else {
-            alert("o número é impar");
+            alert("O número é impar");
         }
     }
 
@@ -51,26 +51,27 @@ const styles = StyleSheet.create({
     },
 
     campo:{
-        backgroundColor: '#003',
-        color: '#FFF',
+        backgroundColor: '#c6ffff',
+        color: '#000',
         fontSize: 18,
         padding: 8,
         marginTop: 10,
-        width: 300,
-        borderRadius: 10
+        width: 200,
+        borderRadius: 10,
+        textAlign: 'center'
     },
 
     botao:{
-        backgroundColor: '#003',
+        backgroundColor: '#c6ffff',
         alignItems: 'center',
-        padding: 15,
+        padding: 10,
         borderRadius: 7,
         marginTop: 20,
-        width: 250
+        width: 150
     },
 
     botaoTexto:{
-        color: 'red',
+        color: '000',
         fontSize: 17,
         fontWeight: 700,
     }
